@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parabank Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://parabank.parasoft.com/"/>
+  <test thread-count="5" name="Parabank Tests(failed)">
+    <classes>
+      <class name="com.Parabank">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Login" invocation-numbers="0 1"/>
+          <include name="LaunchBrowser"/>
+          <include name="RegisterNewUser" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.Parabank -->
+    </classes>
+  </test> <!-- Parabank Tests(failed) -->
+</suite> <!-- Failed suite [Parabank Test Suite] -->

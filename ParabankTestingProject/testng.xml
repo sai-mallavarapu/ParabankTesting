@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parabank Test Suite" parallel="false">
+
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://parabank.parasoft.com/"/>
+
+    <test name="Parabank Tests">
+        <classes>
+            <class name="com.Parabank"/>
+        </classes>
+    </test>
+</suite>
