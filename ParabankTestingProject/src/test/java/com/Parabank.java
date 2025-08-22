@@ -51,8 +51,8 @@ public class Parabank {
         logger.info("Navigated to URL: " + url);
     }
 
-    // 🔹 Parallel execution + invocation count
-    @Test(priority = 1, dataProvider = "registerData", threadPoolSize = 2, invocationCount = 1)
+    // Parallel execution + invocation count
+    @Test(groups="smoke",priority = 1, dataProvider = "registerData", threadPoolSize = 2, invocationCount = 1)
     public void RegisterNewUser(String firstname, String lastname, String streetname, String city, String state,
                                 String zipcode, String phonenumber, String ssn, String username, String password, String repeatedpassword) {
 
@@ -82,7 +82,7 @@ public class Parabank {
         logger.info("Logged out after registration.");
     }
 
-    @Test(priority = 2, dataProvider = "loginData", threadPoolSize = 2, invocationCount = 1)
+    @Test(groups="smoke",priority = 2, dataProvider = "loginData", threadPoolSize = 2, invocationCount = 1)
     public void Login(String userName, String password) {
         logger.info("Starting login test with username: " + userName);
 

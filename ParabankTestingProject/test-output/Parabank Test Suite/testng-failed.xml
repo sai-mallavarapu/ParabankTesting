@@ -4,13 +4,16 @@
   <parameter name="browserName" value="chrome"/>
   <parameter name="url" value="https://parabank.parasoft.com/"/>
   <test thread-count="5" name="Parabank Tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.Parabank">
         <methods>
-          <include name="afterClass"/>
           <include name="Login" invocation-numbers="0 1"/>
           <include name="LaunchBrowser"/>
-          <include name="RegisterNewUser" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.Parabank -->
     </classes>

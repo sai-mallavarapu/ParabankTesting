@@ -12,7 +12,7 @@ public class LoginPage {
     private WebDriverWait wait;
 
     //  Locators
-    private By txtUsername = By.name("sername");
+    private By txtUsername = By.name("username");
     private By txtPassword = By.name("password");
     private By btnLogin = By.xpath("//input[@value='Log In']");
 
@@ -21,7 +21,7 @@ public class LoginPage {
         this.wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(15));
     }
 
-    // 🔹 Actions
+    //  Actions
     public void setUsername(String uname) {
         wait.until(ExpectedConditions.elementToBeClickable(txtUsername)).sendKeys(uname);
     }

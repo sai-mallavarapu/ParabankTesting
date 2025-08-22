@@ -58,3 +58,28 @@
 [2025-08-21 16:25:14] INFO  com.Parabank - Starting login test with username: saiuser1290180
 [2025-08-21 16:25:32] INFO  com.Parabank - Starting login test with username: prabaluser1290180
 [2025-08-21 16:25:54] INFO  com.Parabank - Browser closed successfully.
+[2025-08-21 22:40:36] INFO  com.Parabank - Launching browser: chrome
+[2025-08-21 22:40:45] INFO  com.Parabank - Navigated to URL: https://parabank.parasoft.com/
+[2025-08-21 22:40:45] INFO  com.Parabank - Fetching registration data from Excel...
+[2025-08-21 22:40:46] INFO  com.Parabank - Starting registration test with username: saiuser12901801
+[2025-08-21 22:40:51] INFO  com.Parabank - User registered successfully: saiuser12901801
+[2025-08-21 22:40:53] INFO  com.Parabank - Logged out after registration.
+[2025-08-21 22:40:53] INFO  com.Parabank - Starting registration test with username: prabaluser12901801
+[2025-08-21 22:40:57] INFO  com.Parabank - User registered successfully: prabaluser12901801
+[2025-08-21 22:40:59] INFO  com.Parabank - Logged out after registration.
+[2025-08-21 22:40:59] INFO  com.Parabank - Fetching login data from Excel...
+[2025-08-21 22:40:59] INFO  com.Parabank - Starting login test with username: saiuser12901801
+[2025-08-21 22:41:17] INFO  com.Parabank - Starting login test with username: prabaluser12901801
+[2025-08-21 22:41:38] INFO  com.Parabank - Browser closed successfully.
+[2025-08-22 17:16:16] INFO  com.Parabank - Launching browser: chrome
+[2025-08-22 17:16:35] INFO  com.Parabank - Navigated to URL: https://parabank.parasoft.com/
+[2025-08-22 17:16:36] INFO  com.Parabank - Fetching registration data from Excel...
+[2025-08-22 17:16:38] INFO  com.Parabank - Starting registration test with username: saiuser12901801
+[2025-08-22 17:16:46] INFO  com.Parabank - User registered successfully: saiuser12901801
+[2025-08-22 17:16:48] INFO  com.Parabank - Logged out after registration.
+[2025-08-22 17:16:48] INFO  com.Parabank - Starting registration test with username: prabaluser12901801
+[2025-08-22 17:16:53] INFO  com.Parabank - User registered successfully: prabaluser12901801
+[2025-08-22 17:16:54] INFO  com.Parabank - Logged out after registration.
+[2025-08-22 17:16:54] INFO  com.Parabank - Fetching login data from Excel...
+[2025-08-22 17:16:54] INFO  com.Parabank - Starting login test with username: saiuser12901801
+[2025-08-22 17:17:11] INFO  com.Parabank - Starting login test with username: prabaluser12901801

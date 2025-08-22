@@ -6,6 +6,12 @@
     <parameter name="url" value="https://parabank.parasoft.com/"/>
 
     <test name="Parabank Tests">
+    <groups>
+    <run>
+        <include name="smoke"></include>
+        
+        </run>
+        </groups>
         <classes>
             <class name="com.Parabank"/>
         </classes>
